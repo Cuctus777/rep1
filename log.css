@@ -1,0 +1,76 @@
+r{
+    font-size:  50px;
+
+}
+red{
+    color: rgb(255, 0, 0);
+}
+gre{
+    color: rgb(0, 255, 0);
+
+}
+blu{
+    color: rgb(0, 0, 255);
+
+}
+/*body{
+    background-image: url('fon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+
+
+
+whi{
+    color: rgb(255, 255, 255);
+
+}
+grey{
+    color: rgb(129, 129, 129);
+}
+cyan{
+    color:cyan
+}
+bro{
+    color:brown
+}
+bla{
+    color:black
+}
+.note{
+    color: white;
+    background: green;
+    padding: 10px;
+    border-radius: 8px;
+}
+a{
+    background-color: rgba(255, 255, 255, 0.589);
+}
+/*ul{
+    list-style-type: disc;
+}
+ul.square{
+    list-style-type: square;
+}
+ul.circle{
+    list-style-type: circle;
+}
+ul{
+    list-style-image: url("egg.png");
+}*/
+ul li::marker{
+    content: "👽";
+    color: blueviolet;
+    font-size: 1.2em;
+}
+p{
+    hyphens: auto;
+}
+p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 500px;
+    border: 1px solid #ccc;
+}
