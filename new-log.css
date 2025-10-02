@@ -133,16 +133,101 @@ padding: 10px;
 .button-1:hover {
     background: linear-gradient(pink, blue);
   }
-body{
+/*body{
     background: linear-gradient(to right ,red , crimson , orange , purple ) ;
-}
+  }*/
+
 pic{
     border: cyan solid 5px;
 }
+.box{
+  width: 150px;
+  height: 80px;
+  margin: 10px;
+  background: lightgreen;
+  border: 2px solid green;
 
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+.parent{
+  position:relative;
+  width: 200px;
+  height: 200px;
+  background: lightpink;
+}
+.child{
+position: absolute;
+bottom: 0px;
+right: 0px;
+background: rgb(255, 131, 86);
+}
+.row{display: flex;gap:   12px;}
+.box{width: 80px;height: 80px;background: #e2e8f0;border: 2px solid #94a3b8;}
+.abs{position: absolute;top: 0;}
+.card{
+  position:fixed ;
+  width: 260px ;padding: 16px;right: 10px;
+  background: #f8fafc;border: 2px solid #cbd5e1; border-radius: 10px;
 
+}
+.badge{
+  position: absolute; top: 10px;right:5px;
+  background: #ef4444;color: #fff;padding: 4px 8px; border-radius: 9px;
+}
+.scroll-top{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 50%;
+  font-size:20px;
+  cursor:pointer;
 
-
-
-
-
+}
+.scroll-top:hover{
+  background: rgb(255, 200, 200);
+  color: #ef4444;
+}
+.f_container{
+  display: flex;
+  border: 2px solid black;
+  padding: 10px;
+}
+.item{
+  background: lightblue;
+  border: 1px solid blue;
+  padding: 20px;
+  font-size: 20px;
+}
+.new_container{
+display: flex;
+gap: 10px;
+}
+.special{
+order:-1;
+background: lightgreen;
+}
+.new_item{
+  flex: 1 1 80;
+  padding: 20px;
+  background: lightblue;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.products{
+  display: flex;
+  gap: 20px;
+}
+.new_card{
+flex: 1 1 150px;
+background: lightblue;
+padding: 20px;
+text-align: center;
+border-radius: 8px;
+}
