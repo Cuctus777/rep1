@@ -1,0 +1,96 @@
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.main-section {
+   padding: 64px 0;
+}
+
+.main-section__title {
+    font-family: "Bitcount Grid Single", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: 96px;
+}
+
+.title__color {
+    color: #FD665E;
+}
+
+.main-section__content {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.main-section__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button {
+    background-color: #FD665E;
+    color: #fff;
+    padding: 15px 30px;
+
+}
+
+.main-section__image {
+    object-fit: cover;
+}
+.second-section {
+    padding: 80px 0;
+ }
+ .second-section__title {
+    font-family: "Bitcount Grid Single", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: 48px;
+ }
+ .second-section__content{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+ }
+.second-section__image{
+    object-fit: cover;
+    width: 305px;
+    height: 432px;
+}
+
+
+.third-section {
+    padding: 80px 0;
+    display: flex;
+    gap: 50px;
+ }
+ .third-section__title {
+    font-family: "Bitcount Grid Single", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: 48px;
+ }
+ .third-section__content{
+    display: flex;
+    justify-content: right;
+    gap: 70px;
+ }
+.third-section__image{
+    object-fit: cover;
+    width: 424px;
+    height: 510px;
+    justify-content: left;
+}
+.third-section__description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.third-section__info {
+    display: flex;
+    gap: 20px;
+} 
