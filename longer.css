@@ -94,3 +94,36 @@
     display: flex;
     gap: 20px;
 } 
+
+.third_button {
+    background-color: #FD665E;
+    color: #fff;
+    padding: 16px 8px;
+    width:187px;
+    height:56px;
+
+}
+.fourth-section {
+    padding: 80px 0;
+    display: flex;
+    gap: 50px;
+ }
+ .fourth-section__title {
+    font-family: "Bitcount Grid Single", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size:48px;
+ }
+ .fourth-section__content{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    font-size:36px;
+
+ }
+ .fourth-section__image{
+    object-fit: cover;
+    width: 57px;
+    height: 40px;
+    
+}
